@@ -1,0 +1,156 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+
+.not-found {
+    color: black;
+    width: 133px;
+    height: 25px;
+    font-size: 15px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 25px;
+    font: inconsolata;
+    font-weight: 700;
+
+}
+
+.espanta-pajaros img {
+    width: 539.22px;
+    height: 447.43px;
+    top: 265px;
+    margin-left: 80px;
+    margin-top: -450px;
+
+}
+
+.malas-noticias h1 {
+    width: 600px;
+    height: 190px;
+    top: 265px;
+    margin-left: 900px;
+    margin-top: 200px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    text-align: center;
+    display: flex;
+}
+
+.malas-noticias p {
+    width: 381px;
+    height: 108px;
+    top: 491px;
+    left: 736px;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    margin-left: 1100px;
+    margin-top: -10px;
+    color: #4f4f4f;
+}
+button{
+    width: 216px;
+    height: 68px;
+    margin-left: 1100px;
+    border-radius: 20px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+}
+button h3{
+    color: red;
+}
+button:hover{
+    background-color: rgb(45, 141, 179);
+    transform: rotate3d(2deg);
+}
+@media screen {
+    body {
+        font-family: 'Inter', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Space Mono', monospace;
+    }
+    
+    .not-found {
+        color: black;
+        width: 133px;
+        height: 25px;
+        font-size: 15px;
+        display: flex;
+        margin-left: 100px;
+        margin-top: 25px;
+        font: inconsolata;
+        font-weight: 700;
+    
+    }
+    
+    .espanta-pajaros img {
+        width: 539.22px;
+        height: 447.43px;
+        top: 265px;
+        margin-left: 80px;
+        margin-top: -450px;
+    
+    }
+    
+    .malas-noticias h1 {
+        width: 600px;
+        height: 190px;
+        top: 265px;
+        margin-left: 900px;
+        margin-top: 200px;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Space Mono', monospace;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+        text-align: center;
+        display: flex;
+    }
+    
+    .malas-noticias p {
+        width: 381px;
+        height: 108px;
+        top: 491px;
+        left: 736px;
+        font-family: Space Mono;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        text-align: left;
+        margin-left: 1100px;
+        margin-top: -10px;
+        color: #4f4f4f;
+    }
+    button{
+        width: 216px;
+        height: 68px;
+        margin-left: 1100px;
+        border-radius: 20px;
+        background-color: #333;
+        color: red;
+        cursor: pointer;
+        transition: 0.1s;
+    }
+    button h3{
+        color: blueviolet;
+    }
+    button:hover{
+        background-color: rgb(17, 26, 138);
+        transform: rotate(5deg);
+    }
+}
