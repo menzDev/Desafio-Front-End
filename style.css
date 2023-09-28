@@ -6,151 +6,93 @@ body {
 
 .not-found {
     color: black;
-    width: 133px;
+    width: 100%;
     height: 25px;
-    font-size: 15px;
+    font-size: 24px;
     display: flex;
-    margin-left: 100px;
-    margin-top: 25px;
+    margin-top: 40px;
     font: inconsolata;
     font-weight: 700;
 
 }
 
-.espanta-pajaros img {
-    width: 539.22px;
-    height: 447.43px;
-    top: 265px;
-    margin-left: 80px;
-    margin-top: -450px;
+.container-main {
+    width: 60vw;
+    margin: 0 auto;
+}
 
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    gap: 115px;
+}
+
+.espanta-pajaros img {
+    margin-top: 200px;
+    width: 600px;
 }
 
 .malas-noticias h1 {
-    width: 600px;
-    height: 190px;
-    top: 265px;
-    margin-left: 900px;
-    margin-top: 200px;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Lexend Deca', sans-serif;
-    font-family: 'Space Mono', monospace;
-    font-size: 80px;
-    font-weight: 700;
-    line-height: 95px;
-    letter-spacing: -0.035em;
-    text-align: center;
-    display: flex;
+    font-size: 64px;
+    line-height: 94.78px;
+    letter-spacing: -2.24px;
 }
 
 .malas-noticias p {
-    width: 381px;
-    height: 108px;
-    top: 491px;
-    left: 736px;
     font-family: Space Mono;
     font-size: 24px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 36px;
-    letter-spacing: -0.035em;
-    text-align: left;
-    margin-left: 1100px;
-    margin-top: -10px;
-    color: #4f4f4f;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    color: #4F4F4F;
 }
-button{
+
+button {
     width: 216px;
     height: 68px;
-    margin-left: 1100px;
-    border-radius: 20px;
-    background-color: #333;
-    color: white;
-    cursor: pointer;
-    transition: 0.1s;
+    flex-shrink: 0;
+    background: #333;
+    color: #FFF;
+font-family: Space Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.49px;
+text-transform: uppercase;
+margin-top: 64px;
 }
-button h3{
-    color: red;
-}
-button:hover{
-    background-color: rgb(45, 141, 179);
-    transform: rotate3d(2deg);
-}
-@media screen {
-    body {
-        font-family: 'Inter', sans-serif;
-        font-family: 'Lexend Deca', sans-serif;
-        font-family: 'Space Mono', monospace;
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+@media only screen and (max-width: 768px) {
+    
+    .container-main {
+        width: 80vw;
+        margin: 0 auto;
     }
-    
-    .not-found {
-        color: black;
-        width: 133px;
-        height: 25px;
-        font-size: 15px;
-        display: flex;
-        margin-left: 100px;
-        margin-top: 25px;
-        font: inconsolata;
-        font-weight: 700;
-    
-    }
-    
     .espanta-pajaros img {
-        width: 539.22px;
-        height: 447.43px;
-        top: 265px;
-        margin-left: 80px;
-        margin-top: -450px;
-    
+        width: 375px;
+        margin-top: 80px;
     }
-    
+    .container {
+        display: block;
+        width: 100%;
+    }
     .malas-noticias h1 {
-        width: 600px;
-        height: 190px;
-        top: 265px;
-        margin-left: 900px;
-        margin-top: 200px;
-        font-family: 'Inter', sans-serif;
-        font-family: 'Lexend Deca', sans-serif;
-        font-family: 'Space Mono', monospace;
-        font-size: 80px;
-        font-weight: 700;
-        line-height: 95px;
-        letter-spacing: -0.035em;
-        text-align: center;
-        display: flex;
+        font-size: 48px;
     }
-    
     .malas-noticias p {
-        width: 381px;
-        height: 108px;
-        top: 491px;
-        left: 736px;
-        font-family: Space Mono;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 36px;
-        letter-spacing: -0.035em;
-        text-align: left;
-        margin-left: 1100px;
-        margin-top: -10px;
-        color: #4f4f4f;
+        margin-top: 30px;
     }
-    button{
-        width: 216px;
-        height: 68px;
-        margin-left: 1100px;
-        border-radius: 20px;
-        background-color: #333;
-        color: red;
-        cursor: pointer;
-        transition: 0.1s;
+    button {
+    margin-top: 66px;
     }
-    button h3{
-        color: blueviolet;
-    }
-    button:hover{
-        background-color: rgb(17, 26, 138);
-        transform: rotate(5deg);
-    }
+
 }
